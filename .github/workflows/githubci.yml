@@ -89,6 +89,7 @@ jobs:
       run: |
         arm-none-eabi-gcc --version
         git describe --dirty --always --tags
+        make --version
         make BOARD=${{ matrix.board }} print-GIT_VERSION
         make BOARD=${{ matrix.board }} print-CFLAGS
         make BOARD=${{ matrix.board }} print-_VER
