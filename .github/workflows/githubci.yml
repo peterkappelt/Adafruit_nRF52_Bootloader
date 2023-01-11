@@ -88,6 +88,7 @@ jobs:
     - name: Build
       run: |
         arm-none-eabi-gcc --version
+        make BOARD=${{ matrix.board }} print-CFLAGS
         make BOARD=${{ matrix.board }} all
         make BOARD=${{ matrix.board }} copy-artifact
 
