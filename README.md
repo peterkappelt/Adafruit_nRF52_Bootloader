@@ -1,3 +1,5 @@
+non-important change to trigger build pipeline
+
 # Adafruit nRF52 Bootloader
 
 [![Build Status](https://github.com/adafruit/Adafruit_nRF52_Bootloader/workflows/Build/badge.svg)](https://github.com/adafruit/Adafruit_nRF52_Bootloader/actions)
